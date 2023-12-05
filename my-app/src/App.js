@@ -9,7 +9,10 @@ import './App.css';
 // import ConditionalRenderingFunctional from './components/ConditionalRenderingFunctional';
 // import NestingComponents from './components/NestingComponents';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
-import RenderingLists from './components/RenderingLists';
+// import RenderingLists from './components/RenderingLists';
+// import LifeCyclesCDM from './components/LifeCyclesCDM';
+// import LifeCyclesCDU from './components/LifeCyclesCDU';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 
 function App() {
   return (
@@ -23,7 +26,10 @@ function App() {
       {/* <ConditionalRenderingFunctional connected={false} /> */}
       {/* <NestingComponents /> */}
       {/* <MethodsAsPropsParent /> */}
-      <RenderingLists />
+      {/* <RenderingLists /> */}
+      {/* <LifeCyclesCDM /> */}
+      {/* <LifeCyclesCDU /> */}
+      <LifeCyclesCWU />
     </div>
   );
 }
